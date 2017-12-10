@@ -36,3 +36,11 @@
 .option.highlighted .summary {
   visibility: hidden;
 }
+
+.option {
+  transition: transform 5s cubic-bezier(0,1.7,.3,1),
+              background .2s ease-out;
+}
+.option * {
+  transition: tranform .5s cubic-bezier(0,1.7,.3,1);
+}
